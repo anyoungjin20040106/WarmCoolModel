@@ -8,7 +8,7 @@
 
 - **목적**: 사용자 사진 데이터를 기반으로 피부 톤을 분류하여 메이크업 추천 서비스 등에 활용.
 - **데이터 출처**: [ShowMeTheColor GitHub Repository](https://github.com/starbucksdolcelatte/ShowMeTheColor/tree/master/res)
-- **사용한 기술**: 
+- **사용한 기술**:
   - 딥러닝 프레임워크: `Keras` (쿨톤/웜톤 분류 모델 구현)
   - 프로그래밍 언어: `Python`
 
@@ -17,7 +17,7 @@
 ## 데이터셋
 
 - **데이터 출처**: ShowMeTheColor에서 제공하는 이미지 데이터를 사용하였습니다.
-- **데이터 구조**: 
+- **데이터 구조**:
   - 이미지가 각각 겨울 쿨톤, 여름 쿨톤과 봄 웜톤, 가을 웜톤으로 라벨링되어 있으며, 학습 데이터와 검증 데이터로 분리하여 사용했습니다.
 
 ---
@@ -53,4 +53,4 @@
 ## 참고
 
 - 데이터 출처: [ShowMeTheColor GitHub Repository](https://github.com/starbucksdolcelatte/ShowMeTheColor/tree/master/res)
-- 주요 참고 자료: MobileNet 모델 공식 문서
+- 주요 참고 자료: VGG16모델 공식 문서
